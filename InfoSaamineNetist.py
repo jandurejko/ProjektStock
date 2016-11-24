@@ -12,3 +12,5 @@ def stockToCSV(stockname):
 
     stockInfo = data.DataReader(stockName, 'yahoo', kuupäev)
     stockInfo.to_csv(dirpath + "/" + stockName + ".csv")
+
+
